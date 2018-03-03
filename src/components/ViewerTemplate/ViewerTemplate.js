@@ -4,9 +4,20 @@ import classNames from 'classnames/bind';
 
 const cx = classNames.bind(styles);
 
-const ViewTemplate = ({ viewer, spaceNavigator }) => {
+const ViewerTemplate = ({ viewer, spaceNavigator }) => {
   return (
-    <div classNames={cx('viewer-template')}>
+    <div className={cx('viewer-template')}>
+      <header>
+        Astronomy Picture of the Day
+      </header>
+      <div className={cx('view-wrapper')}>
+        {viewer}
+        <div className={cx('space-navigator-wrapper')}>
+          {spaceNavigator}
+        </div>
+      </div>
     </div>
   );
 };
+
+export default ViewerTemplate
