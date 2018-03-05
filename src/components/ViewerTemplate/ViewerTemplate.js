@@ -10,7 +10,7 @@ const ViewerTemplate = ({ viewer, spaceNavigator }) => {
       <header>
         Astronomy Picture of the Day
       </header>
-      <div className={cx('view-wrapper')}>
+      <div className={cx('viewer-wrapper')}>
         {viewer}
         <div className={cx('space-navigator-wrapper')}>
           {spaceNavigator}

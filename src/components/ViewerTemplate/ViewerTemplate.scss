@@ -13,15 +13,15 @@
     font-size: 2rem;
     font-weight: 600;
 
-    // Smaller font-size in a tablet size
+    // Smaller font-size for tablet size
     @include media("<tablet") {
       font-size: 1.25rem;
     }
   }
-  
+
   .viewer-wrapper {
     position: relative;
     width: 100%;
-    height: calc(100vh - 5rem); // fill up except for the header size
+    height: calc(100vh - 5rem); // fill up except for the header part
   }
 }

@@ -9,9 +9,9 @@ class App extends Component {
       <ViewerTemplate
         spaceNavigator={<SpaceNavigator/>}
         viewer={(
-          <Viewer
-            url="https://apod.nasa.gov/apod/image/1712/GeminidsYinHao1024.jpg" 
-            mediaType="image"/>
+          <Viewer 
+            url="https://www.youtube.com/embed/uj3Lq7Gu94Y?rel=0" 
+            mediaType="video"/>
         )}
       />
     );
